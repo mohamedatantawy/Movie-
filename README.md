@@ -14,11 +14,20 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 # Movie-
 
+# Movie App Screens
+
+## Home Screen
 The Home screen displays movie categories such as popular, top rated, and upcoming.
-[Homepage](https://github.com/mohamedatantawy/Movie-/blob/main/asset/image/Movies%20%26%20TV%202025-07-15%206_08_14%20PM.png)
+![Homepage](https://github.com/mohamedatantawy/Movie-/raw/main/asset/image/Movies%20%26%20TV%202025-07-15%206_08_14%20PM.png)
+
+## Favorites Screen
 The Favourites screen shows the user's saved movies.
-[favorite page ](https://github.com/mohamedatantawy/Movie-/blob/main/asset/image/Movies%20%26%20TV%202025-07-15%206_09_29%20PM.png)
+![Favorite page](https://github.com/mohamedatantawy/Movie-/raw/main/asset/image/Movies%20%26%20TV%202025-07-15%206_09_29%20PM.png)
+
+## Search Screen
 The Search screen allows users to find movies by title.
-[search page ](https://github.com/mohamedatantawy/Movie-/blob/main/asset/image/Movies%20%26%20TV%202025-07-15%206_11_25%20PM.png)
+![Search page](https://github.com/mohamedatantawy/Movie-/raw/main/asset/image/Movies%20%26%20TV%202025-07-15%206_11_25%20PM.png)
+
+## Detail Screen
 The Detail screen displays full information about a selected movie, including a list of similar movies related to it.
-[detail page](https://github.com/mohamedatantawy/Movie-/blob/main/asset/image/Movies%20%26%20TV%202025-07-15%206_11_42%20PM.png)
+![Detail page](https://github.com/mohamedatantawy/Movie-/raw/main/asset/image/Movies%20%26%20TV%202025-07-15%206_11_42%20PM.png)
