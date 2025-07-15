@@ -20,13 +20,7 @@ class Homeview extends StatefulWidget {
 
 class _HomeviewState extends State<Homeview> {
   int _page = 0;
-  List<Widget> showitems = [
-    Homeviewbody(),
-
-   
-    Searchview(),
-    Settingview(),
-  ];
+  List<Widget> showitems = [Homeviewbody(), Searchview(), Settingview()];
 
   @override
   Widget build(BuildContext context) {
@@ -38,7 +32,7 @@ class _HomeviewState extends State<Homeview> {
       ],
       child: Scaffold(
         backgroundColor: kprimaycolor,
-        body: showitems[_page ],
+        body: showitems[_page],
         bottomNavigationBar: CurvedNavigationBar(
           buttonBackgroundColor: Colors.lightBlue,
           // backgroundColor: const Color.fromARGB(255, 4, 45, 118),
@@ -52,7 +46,7 @@ class _HomeviewState extends State<Homeview> {
             Icon(Icons.menu, size: 25, color: Colors.white),
             //    Icon(Icons.person, size: 25, color: Colors.white),
             Icon(Icons.search, size: 25, color: Colors.white),
-            Icon(Icons.settings, size: 25, color: Colors.white),
+            Icon(Icons.favorite_sharp, size: 25, color: Colors.white),
           ],
         ),
       ),

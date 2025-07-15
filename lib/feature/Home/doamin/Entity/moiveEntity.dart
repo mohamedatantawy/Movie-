@@ -14,4 +14,6 @@ class Moiveentity {
     required this.rating,
     required this.timestart,
   });
+
+  static fromMap(Map<String, dynamic> map) {}
 }
